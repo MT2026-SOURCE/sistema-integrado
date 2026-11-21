@@ -1,0 +1,19 @@
+SIGEV EXTERNATO VICTORIA — VERSÃO CLOUD MULTIUTILIZADOR
+
+O pacote inclui sincronização push: as alterações gravadas por um utilizador
+são enviadas aos outros utilizadores ligados e a página aberta actualiza-se
+automaticamente. O cabeçalho mostra o estado da sincronização. Há um fallback
+de 15 segundos.
+
+Para publicar: consulte SIGEV_Web\CLOUD_README.txt.
+É necessário criar/usar contas GitHub e Render; a publicação exige autenticação
+as contas do proprietário. Não coloque dados pessoais no repositório.
+
+Este pacote não está publicado ainda. Use uma única instância cloud com disco
+persistente (SQLite), configure backup e teste restauração antes de dados reais.
+
+LOGIN inicial apenas em base de dados nova: admin / ChangeMe!2026 (ou a senha
+ADMIN_PASSWORD gerada pelo serviço cloud).
+
+
+CORRECAO DO INSTALADOR (20-11-2026): o atalho e a abertura automatica apontam agora para ABRIR_SIGEV.bat na pasta principal SIGEV_PRONTO, evitando o erro de caminho nao encontrado.
